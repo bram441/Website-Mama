@@ -1,0 +1,16 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=75
+END=767
+title=edit product edit product test
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=null
+title=edit product change back
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=null
+title=edit product in use name

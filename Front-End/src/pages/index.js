@@ -1,0 +1,13 @@
+export { default as Visie } from "./Visie";
+export { default as Producten } from "./Producten";
+export { default as Praktisch } from "./Praktisch";
+export { default as Hoofdpagina } from "./Hoofdpagina";
+export { default as Login } from "./Login";
+export { default as Register } from "./Register";
+export { default as AddAppointmentForm } from "./AddAppointmentForm";
+export { default as AddProductForm } from "./AddProductForm";
+export { default as AddVerkoperForm } from "./AddVerkoperForm";
+export { default as EditProductForm } from "./EditProductForm";
+export { default as NotificationScreen } from "./NotificationScreen";
+export { default as NotFound } from "./NotFound";
+export { default as WieBenIkPagina } from "./WieBenIkPagina";

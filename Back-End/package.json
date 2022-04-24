@@ -1,0 +1,35 @@
+{
+  "name": "huisdokter-api",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "npx env-cmd nodemon src/index.js",
+    "web": "node src/index.js",
+    "test": "npx env-cmd -f .env.test jest",
+    "test:coverage": "npx env-cmd -f .env.test jest --coverage",
+    "test:ci": "jest"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.1.1",
+    "argon2": "^0.28.3",
+    "axios": "^0.24.0",
+    "config": "^3.3.6",
+    "env-cmd": "^10.1.0",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.14",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa2-swagger-ui": "^5.3.0",
+    "mysql2": "^2.3.3",
+    "swagger-jsdoc": "^6.1.0",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "nodemon": "^2.0.14",
+    "supertest": "^6.1.6"
+  }
+}

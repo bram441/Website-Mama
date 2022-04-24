@@ -1,0 +1,392 @@
+html {
+  background-image: url("../../assets/backgrounds/nieuweLucht.png");
+  background-repeat: no-repeat;
+}
+
+/* nav bar */
+
+.logo {
+  width: 50px;
+}
+
+.Mui-disabled {
+  display: none;
+}
+
+.MuiAppBar-root {
+  border-radius: 20px;
+  background-color: white;
+}
+
+nav {
+  padding-bottom: 12px;
+}
+
+button.links {
+  border: none;
+  background: none;
+  font-size: 105%;
+}
+
+.links li {
+  list-style-type: none;
+  color: black;
+}
+
+.links:after {
+  display: block;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  background-color: #56baed;
+  content: "";
+  transition: width 0.2s;
+}
+
+.links:hover {
+  color: #0d0d0d;
+}
+
+.links:hover:after {
+  width: 100%;
+}
+
+.knopjes a {
+  text-decoration: none;
+  color: white;
+}
+
+.knopjes a:hover {
+  color: black;
+}
+
+.dropdown {
+  text-decoration: none;
+  color: black;
+}
+
+.knopjes {
+  align-items: right;
+}
+
+.loginKnopDropDown a {
+  color: black;
+  text-decoration: none;
+}
+
+.MuiTypography-h6 a {
+  color: white;
+}
+
+.MuiTypography-h6 a:hover {
+  color: black;
+}
+
+#PhoneNavButton {
+  display: none;
+}
+
+/* hoofdpagina */
+
+.hoofdtitle {
+  margin-top: 0px;
+  font-size: 250%;
+  color: white;
+}
+
+#CardWieBenIk {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 150px;
+}
+
+.MuiTypography-h4 {
+  padding: 150px;
+}
+
+@media screen and (max-width: 960px) {
+  .knopjes {
+    display: none;
+  }
+
+  #PhoneNavButton {
+    display: inline-block;
+  }
+}
+
+/* wie ben ik? */
+
+.WieBenIkTekst {
+  margin-top: 4%;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: white;
+  font: bold;
+}
+
+.wieBenIkPagina {
+  background-image: url("../../assets/backgrounds/nieuweLucht.png");
+}
+
+/* visie */
+
+.Visie {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.suggesties {
+  margin-top: 4%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.visie_uitleg {
+  margin-top: 4%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/* Login */
+
+.MuiAlert-standardSuccess {
+  width: 20rem;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.backHome {
+  padding-top: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.backHome a {
+  color: white;
+  border: black;
+  text-decoration: none;
+}
+
+.backHome a:hover {
+  color: black;
+}
+
+/* Praktisch */
+
+.afspraakMaken {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.afspraakMaken a {
+  color: white;
+}
+
+.afspraakMaken a:hover {
+  color: black;
+}
+
+.praktisch {
+  margin-top: 4%;
+  color: white;
+}
+
+.praktisch h1 {
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.praktisch h2 {
+  font-size: 150%;
+  margin-left: 40%;
+  color: white;
+}
+
+.praktisch section {
+  margin-left: 40%;
+}
+
+/* afspraak maken */
+
+.afspraak {
+  background-image: url("../../assets/backgrounds/hawaii.jpg");
+}
+
+textarea {
+  width: 375px;
+  height: 100px;
+  max-width: 375px;
+  max-height: 150px;
+}
+
+h6 {
+  font-style: italic;
+}
+/* webschop */
+
+.webschopknoppen {
+  margin: 3%;
+}
+
+.webschopknoppen a {
+  color: white;
+}
+
+.webshop {
+  margin-top: 4%;
+}
+
+.webshop h1 {
+  color: white;
+}
+
+.webshop p {
+  margin-left: 4%;
+  color: white;
+}
+
+.webschopknoppen a:hover {
+  color: black;
+}
+
+@media screen and (max-width: 960px) {
+  .webschopknoppen {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .praktisch h1 {
+    margin: auto;
+    text-align: center;
+  }
+
+  .praktisch h2 {
+    font-size: 150%;
+    margin-left: 0%;
+    color: black;
+  }
+
+  .praktisch section {
+    margin-left: 0%;
+  }
+}
+
+/* Table Styles */
+
+.table-wrapper {
+  margin: 10px 70px 70px;
+  box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+}
+
+.fl-table {
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: white;
+}
+
+.fl-table td,
+.fl-table th {
+  text-align: center;
+  padding: 8px;
+}
+
+.fl-table td {
+  border-right: 1px solid #f8f8f8;
+  font-size: 12px;
+}
+
+.fl-table th {
+  color: #ffffff;
+  background: #4fc3a1;
+}
+
+.fl-table th:nth-child(odd) {
+  color: #ffffff;
+  background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+/* Responsive */
+
+@media (max-width: 960px) {
+  .fl-table {
+    display: block;
+    width: 100%;
+  }
+  .table-wrapper:before {
+    content: "Scroll horizontally >";
+    display: block;
+    text-align: right;
+    font-size: 11px;
+    color: white;
+    padding: 0 0 10px;
+  }
+  .fl-table thead,
+  .fl-table tbody,
+  .fl-table thead th {
+    display: block;
+  }
+  .fl-table thead th:last-child {
+    border-bottom: none;
+  }
+  .fl-table thead {
+    float: left;
+  }
+  .fl-table tbody {
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+  }
+  .fl-table td,
+  .fl-table th {
+    padding: 20px 0.625em 0.625em 0.625em;
+    height: 60px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 120px;
+    font-size: 13px;
+    text-overflow: ellipsis;
+  }
+  .fl-table thead th {
+    text-align: left;
+    border-bottom: 1px solid #f7f7f9;
+  }
+  .fl-table tbody tr {
+    display: table-cell;
+  }
+  .fl-table tbody tr:nth-child(odd) {
+    background: none;
+  }
+  .fl-table tr:nth-child(even) {
+    background: transparent;
+  }
+  .fl-table tr td:nth-child(odd) {
+    background: #f8f8f8;
+    border-right: 1px solid #e6e4e4;
+  }
+  .fl-table tr td:nth-child(even) {
+    border-right: 1px solid #e6e4e4;
+  }
+  .fl-table tbody td {
+    display: block;
+    text-align: center;
+  }
+}
